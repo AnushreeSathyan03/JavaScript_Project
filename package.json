@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "mkdir dist && xcopy src dist /E /I /Y"
+    "build": "if exist dist rmdir /S /Q dist && mkdir dist && xcopy src dist /E /I /Y"
   },
   "keywords": [],
   "author": "",
