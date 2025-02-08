@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "build": "echo 'No build script defined'"
-},
-
+    "start": "node index.js",
+    "build": "react-scripts build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
